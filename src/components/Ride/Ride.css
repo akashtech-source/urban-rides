@@ -1,0 +1,51 @@
+.customer{
+    float: left;
+    width: 25%;
+    background-color: rgb(40, 122, 245);
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+    height: 400px;
+    margin-left: 70px;
+    color: white;
+}
+.map-container{
+    width: 60%;
+    margin-left: 35%;
+    height: 400px;
+}
+.start{
+    width:300px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.end{
+    width:300px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.search-btn{
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    width: 120px;
+    background-color: tomato;
+    color: white;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+::placeholder{
+    color: black;
+    font-size: 17px;
+}
+.map-container img{
+    width: 70%;
+    
+}
