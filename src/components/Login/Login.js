@@ -23,13 +23,7 @@ const Login = () => {
         const signedInUser = {name: displayName, email: email};
         setLoggedInUser(signedInUser);
         history.replace(from);
-    }).catch((error) => {
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        var email = error.email;
-        var credential = error.credential;
-        // ...
-    });
+    })
     }
     return (
         <div>
